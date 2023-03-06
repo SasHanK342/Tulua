@@ -1,0 +1,238 @@
+.header-color {
+    background-color: black;
+    color: black;
+    top: 0;
+    margin-bottom: 10px;
+}
+.header {
+    height: 55px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    /*position: fixed;*/
+    top:0;
+    left:0;
+    right: 0;
+
+    background-color: white;
+    z-index: 100;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.title-logo {
+    height: 50px;
+    width: 90px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.youtube-logo {
+    height: 20px;
+}
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    flex:1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow:  1px 2px 5px rgba(0,0,0,0.5);
+    width: 0;
+}
+.search-bar::placeholder {
+    font-family: Roboto ,Arial;
+    font-size: 16px;   
+}
+.search-icon {
+    height: 25px;
+    margin-top: 4px;
+}
+.search-button {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(192,192,192);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+
+.right-section {
+    margin-right: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.cart-icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.unamed-icon {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 28px;
+    border:1px solid rgb(233, 233, 233);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.header-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: 50px;
+    z-index: 101;
+    padding-bottom: 10px;
+    color: rgb(46, 46, 46)
+}
+.header-tools a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+.header-border {
+    background-color: rgb(192,192,192);
+    height: 1px;
+    color: rgb(192,192,192);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+.cover-sale {
+    display: grid;
+    vertical-align: top;
+    margin: 50px;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 80px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(131, 86, 86);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+  }
+  .cover-sale-img-1 {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .bottom-left-1 {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    font-size: 40px;
+  }
+  .bottom-left-2 {
+    position: absolute;
+    top: 70px;
+    right: 16px;
+    font-size: 20px;
+  }
+  .bottom-left-3 {
+    position: absolute;
+    top: 100px;
+    right: 16px;
+    font-size: 20px;
+
+  }
+
+  .bottom-left-4 {
+    position: absolute;
+    top: 150px;
+    right: 16px;
+    font-size: 20px;
+  }
+
+  .bottom-left-5 img {
+    width:20px;
+    height: auto;
+    position: absolute;
+    top: 180px;
+    right: 56px;
+    font-size: 20px;
+  }
+  
+  .bottom-left-3:hover {
+    text-decoration: underline;
+  }
+
+  .cover-sale-2 {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+  .cover-img-2 {
+    max-height: 210px;
+    position:relative;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.d2 {
+    margin: 0 30px;
+    cursor: pointer;
+}
+.d2:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+  .border-bar-1 {
+    background-color: black;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+.border-bar-2 {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

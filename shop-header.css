@@ -1,0 +1,248 @@
+.header-color {
+    background-color: black;
+    color: black;
+    top: 0;
+    margin-bottom: 10px;
+}
+.header {
+    height: 55px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    /*position: fixed;*/
+    top:0;
+    left:0;
+    right: 0;
+
+    background-color: white;
+    z-index: 100;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.title-logo {
+    height: 50px;
+    width: 90px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.youtube-logo {
+    height: 20px;
+}
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    flex:1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow:  1px 2px 5px rgba(0,0,0,0.5);
+    width: 0;
+}
+.search-bar::placeholder {
+    font-family: Roboto ,Arial;
+    font-size: 16px;   
+}
+.search-icon {
+    height: 25px;
+    margin-top: 4px;
+}
+.search-button {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(192,192,192);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+
+.right-section {
+    margin-right: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.cart-icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.unamed-icon {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 28px;
+    border:1px solid rgb(233, 233, 233);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.header-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: 50px;
+    z-index: 101;
+    padding-bottom: 10px;
+    color: rgb(46, 46, 46)
+}
+.header-tools a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+.header-border {
+    background-color: rgb(192,192,192);
+    height: 1px;
+    color: rgb(192,192,192);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+}
+
+.container-1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+.container-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-2 {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.container-2 p{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+
+.cover-sale-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 50px;
+}
+
+.d2 {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.d2:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.5);
+}
+
+.cover-img-2 {
+    max-height: 450px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+ }
+
+ @media (max-width : 850px) {
+    .cover-sale-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (min-width : 751px) and (max-width : 999px) {
+    .cover-img-2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cover-img-2 {
+        max-height: 350px;
+    }
+
+}
+
+
+
+
+.a {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+.b {
+    margin-top: 10px;
+    padding-left: 10px;
+    color: rgb(150,150,150);
+    font-family: Arial;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+.container-3 {
+    text-align: center;
+    margin: 70px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container-3 a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.border-bar-1 {
+    background-color: black;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+.border-bar-2 {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

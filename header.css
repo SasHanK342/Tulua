@@ -1,0 +1,247 @@
+.header-color {
+    background-color: black;
+    color: black;
+    top: 0;
+    margin-bottom: 10px;
+}
+.header {
+    height: 55px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    /*position: fixed;*/
+    top:0;
+    left:0;
+    right: 0;
+
+    background-color: white;
+    z-index: 100;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.title-logo {
+    height: 50px;
+    width: 90px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.youtube-logo {
+    height: 20px;
+}
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    flex:1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow:  1px 2px 5px rgba(0,0,0,0.5);
+    width: 0;
+}
+.search-bar::placeholder {
+    font-family: Roboto ,Arial;
+    font-size: 16px;   
+}
+.search-icon {
+    height: 25px;
+    margin-top: 4px;
+}
+.search-button {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(192,192,192);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+
+.right-section {
+    margin-right: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.cart-icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.unamed-icon {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 28px;
+    border:1px solid rgb(233, 233, 233);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.header-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: 50px;
+    z-index: 101;
+    padding-bottom: 10px;
+    color: rgb(46, 46, 46)
+}
+.header-tools a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+.header-border {
+    background-color: rgb(192,192,192);
+    height: 1px;
+    color: rgb(192,192,192);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+}
+.header-cover {
+    margin: 80px;
+    position: relative;
+}
+.header-cover-img  {
+    width: 100%;
+}
+.button1 {
+    position: fixed;
+    font-size: 0.1px;
+    padding: 4px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: white;
+    color: white;
+    position: absolute;
+    bottom:350px;
+    left: 450px;
+    box-shadow: 0 0 5px 10px rgba(0,0,0,0.7); 
+    cursor: pointer;
+}
+
+.button2 {
+    font-size: 0.1px;
+    padding: 4px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: white;
+    color: white;
+    position: absolute;
+    bottom:70px;
+    right: 520px;
+    box-shadow: 0 0 5px 10px rgba(0,0,0,0.7); 
+    cursor: pointer;
+}
+.button3 {
+    font-size: 0.1px;
+    padding: 4px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: white;
+    color: white;
+    position: absolute;
+    bottom:250px;
+    right: 450px;
+    box-shadow: 0 0 5px 10px rgba(0,0,0,0.7); 
+    cursor: pointer;
+}
+
+.c {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+    box-shadow: 0 0 10px 4px rgb(245, 235, 180);
+
+}
+.a {
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+.b {
+    margin-top: 4px;
+    padding-left: 10px;
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.button1 .d {
+    position: absolute;
+    background-color: white;
+    padding: 6px;
+    bottom: -260px;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+}
+
+.button1:hover .d {
+    opacity: 1;
+}
+
+
+.button2 .d {
+    position: absolute;
+    background-color: white;
+    padding: 6px;
+    bottom: -50px;
+    right: 50px;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+}
+
+.button2:hover .d {
+    opacity: 1;
+}
+
+.button3 .d {
+    position: absolute;
+    background-color: white;
+    padding: 6px;
+    bottom: -230px;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+}
+
+.button3:hover .d {
+    opacity: 1;
+}
